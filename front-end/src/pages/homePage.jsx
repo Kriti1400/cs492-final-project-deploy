@@ -4,7 +4,7 @@ function HomePage() {
   let navigate = useNavigate()
   return (
     <div className="HomePage">
-        <img className='border-x-violet-500 homePage-HeaderImg mx-auto' src="../../../assets/AITeamLookingAtCandidate.webp" alt="AI ethics" height="200"/>
+        <img className='border-x-violet-500 homePage-HeaderImg mx-auto' src="https://i.ibb.co/k0F1vbK/AITeam-Looking-At-Candidate.webp" alt="AI ethics" height="200"/>
         <br></br>
         <br></br>
       <div className='homePage-TextContainer text-neutral-200'>

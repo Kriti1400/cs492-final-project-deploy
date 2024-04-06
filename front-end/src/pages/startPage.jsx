@@ -5,7 +5,7 @@ function StartPage() {
   return (
     <div className="StartPage  h-1/4 flex justify-center items-center bg-indigo-950 border-2 border-rose-400 text-neutral-100 rounded-sm" >
 
-        <img width="400" height="300" src="../../../assets/manager.webp"/>
+        <img width="400" height="300" src="https://i.ibb.co/LrTkwvp/manager.webp"/>
          <div className='startPage-TextContainer p-8'>
 
           <h2 className='text-xl font-extrabold text-rose-400'>Congratulations!</h2>

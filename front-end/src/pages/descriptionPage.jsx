@@ -6,7 +6,7 @@ function DescriptionPage() {
 
   return (
     <div className="DescriptionPage  bg-blue-950 min-h-screen text-neutral-100 text-left">
-      <img className='descriptionPage-HeaderImg' src="../../assets/descriptionPage.webp" height="400"/>
+      <img className='descriptionPage-HeaderImg' src="https://i.ibb.co/dQXS0KH/description-Page.webp" height="400"/>
       <br></br>
       <div className='descriptionPage-TextContainer'>
         <h2 className="text-center font-extrabold underline text-pink-400">The Hidden Bias: An Interactive Exploration of AI in Hiring</h2>

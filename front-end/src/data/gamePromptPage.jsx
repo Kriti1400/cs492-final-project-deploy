@@ -3,8 +3,8 @@ const gamePromptPage = [
       id: 0,
       text: `Select your role. Choose betweeen 2 men who are 40, and 50 respectively and both white. 
       Did you know that 7.4% of all engineering managers are women, while 92.6% are men and the most common ethnicity of engineering managers is white at 71.0%?`,
-      image: "../../assets/SelectYourRole2WhiteMen.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/zJwLFRC/Select-Your-Role2-White-Men.png",
+      altText: `Two white men sitting and discussing at a table`,
       option1ID: 1,
       option1text: `40 year old manager`,
       option2ID: 2,
@@ -17,8 +17,8 @@ const gamePromptPage = [
       Your first task is to hire a new software developer to join your team. 
       
       This is your first time hiring someone. You want to make a good impression on your team. The Talent Acquisition Specialist at Avengers4U offers you some resources to assist with hiring.`,
-      image: "../../assets/Selected40YearOld.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/qmwPfG5/Selected40-Year-Old.png",
+      altText: `40 year old white man`,
       option1ID: 3,
       option1text: `You respectfully decline`,
       option2ID: 4,
@@ -31,8 +31,8 @@ const gamePromptPage = [
       Your first task is to hire a new software developer to join your team. This is your first time hiring someone. You want to make a good impression on your team. 
       
       The Talent Acquisition Specialist at Avengers4U offers you some resources to assist with hiring.`,
-      image: "../../assets/Selected50YearOld.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/d5HFnN1/Selected50-Year-Old.png",
+      altText: `50 year old white man`,
       option1ID: 3,
       option1text: `You respectfully decline`,
       option2ID: 4,
@@ -45,8 +45,8 @@ const gamePromptPage = [
       You start by drafting the job description. You highlight the company’s commitment to diversity, aiming to attract a wide range of talented individuals. 
 
       You begin to picture the ideal candidate: A software engineer with 5 years of work experience that is not afraid to push the envelope. An ambitious and driven individual, active in the software development life cycle.`,
-      image: "../../assets/DraftingJobDescription.png",
-      altText:`Add alt text`,
+      image: "https://i.ibb.co/hmYW8dV/Drafting-Job-Description.png",
+      altText:`A white man writing a job description`,
       option1ID: 5,
       option1text: `You add these qualifications in the job description`,
       isTransition: true
@@ -73,8 +73,8 @@ const gamePromptPage = [
 
       You thank Maura for her help. You can't believe how naive you were. You decide to craft a job posting without the use of agentic words.
       `,
-      image: "../../assets/BusinessManThankingBusinessWomen.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/9r91CXw/Business-Man-Thanking-Business-Women.png",
+      altText: `A business mna thanking a business woman`,
       option1ID: 8,
       option1text: `You post the job posting on the job portal without approval`,
       option2ID: 7,
@@ -84,8 +84,8 @@ const gamePromptPage = [
       id: 5,
       text: `You want to get a new team member hired as soon as possible so you can move one to other tasks. 
       You decide to write the job description as you decided, without getting approval from Talent Acquisition.`,
-      image: "../../assets/ManWithJobDescription.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/3vNkGcc/Man-With-Job-Description.png",
+      altText: `Man with a job description sheet of paper`,
       option1ID: 6,
       option1text: `You are done writing the job posting.`,
       isTransition: true
@@ -113,7 +113,7 @@ const gamePromptPage = [
       Consequently, Maura decides to take over the hiring process. 
 
       You are disappointed in yourself.`,
-      altText: `Add alt text`,
+      altText: `game over`,
       isGameOver: true
     },
     
@@ -124,8 +124,8 @@ const gamePromptPage = [
        She explains that Textio uses natural language processing (NLP) to analyze job postings and suggest alternative language that is more inclusive and appealing to a diverse audience. 
       
       Intrigued by the recommendation, you decide to give Textio a try, appreciating the opportunity to leverage technology to address the biases in your job posting.`,
-      image: "../../assets/Textio.jpg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/44HR29G/Textio.jpg",
+      altText: `Textio logo`,
       option1ID: 9,
       option1text: `You try using Textio`,
       option2ID: 8,
@@ -137,7 +137,7 @@ const gamePromptPage = [
       This way, the job posting can be appealing to a diverse audience. 
 
       You are disappointed that you did not ask for approval. It is important that the most qualified candidate is selected. Using tools like Textio ensures that no candidates are deterred away from applying.`,
-      altText: `Add alt text`,
+      altText: `game over`,
       isGameOver: true
     },
     {
@@ -149,8 +149,8 @@ const gamePromptPage = [
       Finally, you think you have an inclusive and bias-free job posting. 
 
       Now, you must publish the job posting.`,
-      image: "../../assets/AboutToPublishJobPosting.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/Njfd0yX/About-To-Publish-Job-Posting.png",
+      altText: `Man about to publish a job posting`,
       option1ID: 11,
       option1text: `You are looking forward to publishing the job posting.`,
       isTransition: true
