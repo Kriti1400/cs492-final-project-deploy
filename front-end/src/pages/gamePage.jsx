@@ -3,10 +3,11 @@ import { useState, useEffect } from "react";
 import Prompt from "../components/gamePromptComponent";
 import { Link, useNavigate } from 'react-router-dom'
 
+import gamePromptPage from "../data/gamePromptPage";
 
 function Game() {
   const [gameData, setGameData] = useState(null);
-  const [optionSelected, setOptionSelected] = useState(0);
+  const [optionSelected, setOptionSelected] = useState(gamePromptPage[0].id);
   let navigate = useNavigate();
 
   useEffect(() => {
@@ -28,7 +29,7 @@ function Game() {
     return <div>Loading...</div>;
   }
 
-  const prompt = gameData.find(prompt => prompt.id === optionSelected);
+ const prompt = gamePromptPage.find(prompt => prompt.id === optionSelected);
   console.log(prompt.id)
 
 if (prompt.isGameOver) {
