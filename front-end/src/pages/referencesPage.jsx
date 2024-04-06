@@ -39,7 +39,7 @@ function ReferencesPage() {
             ))}
           </div>
         </div>
-                    <img src="../../../assets/logo.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
+                    <img src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=595&height=400&name=image8-2.jpg" alt="test" />
         <div>
         <h1 className='text-center font-extrabold text-pink-400'>Screening References</h1>
           {/* <div className='flex flex-col space-y-4'>
