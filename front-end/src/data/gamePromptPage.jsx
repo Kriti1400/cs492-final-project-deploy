@@ -42,7 +42,7 @@ const gamePromptPage = [
       id: 3,
       text: `You decide that you are more than capable of making the hiring decision yourself. After all, you’ve been an applicant before. How hard can this be?
       
-      You start by drafting the job description. You highlight the company’s commitment to diversity, aiming to attract a wide range of talented individuals. 
+      You start by drafting the job posting. You highlight the company’s commitment to diversity, aiming to attract a wide range of talented individuals. 
 
       You begin to picture the ideal candidate: A software engineer with 5 years of work experience that is not afraid to push the envelope. An ambitious and driven individual, active in the software development life cycle.`,
       image: "https://i.ibb.co/hmYW8dV/Drafting-Job-Description.png",
@@ -54,6 +54,8 @@ const gamePromptPage = [
     {
       id: 4,
       text: `You decide to ask the Talent Acquisition Specialist for advice. Maura is glad that you reached out!
+
+      Maura explains that to hire a new team member, drafting a job posting is the first step. However, this can cause problems if you are not careful. 
 
       Maura tells you that the job posting reflects implicit biases. Surprised, she continues that the word embeddings used by the Google News dataset answered the analogy that a man is a computer programmer and a woman is a homemaker (Bolukbasi et al., 2016). 
       She explains that word embeddings are a way of representing words for text analysis in the form of real-valued vectors. These vectors preserve semantic and syntactic information, but they can also reflect social biases. 
@@ -71,10 +73,10 @@ const gamePromptPage = [
       Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. It has been trained on past data to determine the ideal candidate, which in the past had been men. In this case, male applicants were more likely to see the job posting due to the use of agentic words. 
       As a result, as a company, we strive to write gender-neutral job postings so that the portal does not have an implicit bias toward some candidates.
 
-      You thank Maura for her help. You can't believe how naive you were. You decide to craft a job posting without the use of agentic words.
+      You thank Maura for explaining how to fairly write a job posting without using implicit biases.
       `,
       image: "https://i.ibb.co/9r91CXw/Business-Man-Thanking-Business-Women.png",
-      altText: `A business mna thanking a business woman`,
+      altText: `A business man thanking a business woman`,
       option1ID: 8,
       option1text: `You post the job posting on the job portal without approval`,
       option2ID: 7,
@@ -82,7 +84,7 @@ const gamePromptPage = [
     },
     {
       id: 5,
-      text: `You want to get a new team member hired as soon as possible so you can move one to other tasks. 
+      text: `You want to get a new team member hired as soon as possible so you can move on to other tasks. 
       You decide to write the job description as you decided, without getting approval from Talent Acquisition.`,
       image: "https://i.ibb.co/3vNkGcc/Man-With-Job-Description.png",
       altText: `Man with a job description sheet of paper`,
@@ -113,7 +115,7 @@ const gamePromptPage = [
       Consequently, Maura decides to take over the hiring process. 
 
       You are disappointed in yourself.`,
-      altText: `game over`,
+      altText: `Game Over`,
       isGameOver: true
     },
     
@@ -121,7 +123,7 @@ const gamePromptPage = [
       id: 7,
       text: `Maura is glad you asked for approval. She recommends a tool named Textio, an augmented writing platform that employs AI to mitigate biased language in job descriptions. 
       
-       She explains that Textio uses natural language processing (NLP) to analyze job postings and suggest alternative language that is more inclusive and appealing to a diverse audience. 
+       She explains that Textio uses natural language processing (NLP) to analyze job postings and suggest alternative language that is more inclusive and appealing to diverse audiences. 
       
       Intrigued by the recommendation, you decide to give Textio a try, appreciating the opportunity to leverage technology to address the biases in your job posting.`,
       image: "https://i.ibb.co/44HR29G/Textio.jpg",
@@ -133,11 +135,10 @@ const gamePromptPage = [
     },
     {
       id: 8,
-      text: `Maura is disappointed that you did not ask for approval. She explains that Textio is a tool they run job postings by to detect biased language and suggest alternative language. 
-      This way, the job posting can be appealing to a diverse audience. 
+      text: `Maura is disappointed that you did not ask for approval. She explains that Textio is a tool they run job postings by to detect biased language and suggest alternative language. This way, the job posting can be appealing to a diverse audience. 
 
       You are disappointed that you did not ask for approval. It is important that the most qualified candidate is selected. Using tools like Textio ensures that no candidates are deterred away from applying.`,
-      altText: `game over`,
+      altText: `Game Over`,
       isGameOver: true
     },
     {
@@ -160,11 +161,11 @@ const gamePromptPage = [
       text: `The next step is determining where you will post the job posting. You want to target a wide range of qualified applicants. 
       You decide that simply adding the posting to the Avengers4U hiring portal is not enough. You consider making a Google Ad to encourage people to apply.
       
-      As you are making your ad, your coworker Dan walks by. Dan is a senior engineer on your team. Dan says “Hope Google Ads isn’t the only place you’re promoting the job” and walks by.
+      As you are creating your ad, your coworker Dan walks by. Dan is a senior engineer on your team. Dan says “Hope Google Ads isn’t the only place you’re promoting the job” and walks by.
       
       You sit there confused. What did Dan mean? `,
-      image: "../../assets/ConfusedMan.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/vkgQQTj/Confused-Man.png",
+      altText: `Man holding his hand to his head`,
       option1ID: 13,
       option1text: `You go to Dan to ask him for clarification`,
       option2ID: 12,
@@ -175,21 +176,21 @@ const gamePromptPage = [
       text: `You decide to ignore Dan. After all, you are the manager, not Dan. You trust your gut. 
       
       You post the advertisement and wait for all the talented applicants to apply.`,
-      image: "../../assets/ConfidentMan.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/7SmY5sZ/Confident-Man.png",
+      altText: `A confident man`,
       option1ID: 14,
       option1text: `Wait for applicants to apply`,
       isTransition: true
     },
     {
       id: 14,
-      text: `One week has passed. You decide to look through at the job portal to see who has applied. 
+      text: `One week has passed. You decide to look through the job portal to see who has applied. 
       
-      Flipping through the applications, the first one is Tony Stark. He looks like a promising candidate, he made his own operating system. The second applicant is Steve Rogers, a civil engineer. The third applicant is Thor Odinson, a cloud engineer. As you flip through all 20 applications, you notice only 1 female applicant, Natasha Romanova. That’s weird, why was there a lack of diversity in this ad? 
+      Flipping through the applications, the first one is Tony Stark. He looks like a promising candidate. He built his own operating system. The second applicant is Steve Rogers, a civil engineer. The third applicant is Thor Odinson, a cloud engineer. As you flip through all 20 applications, you notice only 1 female applicant, Natasha Romanova. That’s weird, was there a lack of diversity in this ad? 
 
       Feeling unmotivated, you decide to finally ask Dan what he meant about his Google Ad comment`,
-      image: "../../assets/UnmotivatedMan.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/ykc9XtM/Unmotivated-Man.pngg",
+      altText: `A man thinking and sitting at his desk`,
       option1ID: 13,
       option1text: `Ask Dan to explain what he meant`,
       isTransition: true
@@ -203,8 +204,8 @@ const gamePromptPage = [
       Dan continues, “The model was trained on historical data. It learned from patterns that men are generally represented in high-paying jobs compared to women”.
 
       Based on this conversation, what is your next step?`,
-      image: "../../assets/ConvoAboutGoogleAd.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/BPkvcQ0/Convo-About-Google-Ad.png",
+      altText: `Two men discussing the Google Ads system`,
       option1ID: 15,
       option1text: `Ignore what Dan said and continue to hire from these candidates.`,
       option2ID: 16,
@@ -215,7 +216,7 @@ const gamePromptPage = [
       text: `Dan lets HR know about your conversation. Despite the study being a few years old, Avengers4U is very serious about advertisements for job postings. HR believes job posting advertisements should always be made on more than 1 platform, to ensure all potential applicants have the same likelihood for success. 
       
       They send you a warning that this would have been avoidable if you had accepted their help in the beginning. They take over hiring now. `,
-      altText: `Add alt text`,
+      altText: `Game Over`,
       isGameOver: true
     },
     {
@@ -226,8 +227,8 @@ const gamePromptPage = [
       
       You conclude that relying only on Google Ads will narrow your search for the most qualified applicant. 
       `,
-      image: "../../assets/LinkedInPosting.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/6JQxDPW/Linked-In-Posting.png",
+      altText: `Two people around a Linkedin posting`,
       option1ID: 18,
       option1text: `Now, you wait for job applications`,
       isTransition: true
@@ -235,8 +236,8 @@ const gamePromptPage = [
     {
       id: 17,
       text: `Now, one week later, you have more diverse applicants. More individuals identifying as female and non-binary have applied.`,
-      image: "../../assets/WomenApplyingToJob.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/8D1QjwK/Women-Applying-To-Job.png",
+      altText: `Individuals identifying as a woman or non-binary apply to a job`,
       option1ID: 18,
       option1text: `You look forward to screening the applicants`,
       isTransition: true
@@ -247,8 +248,8 @@ const gamePromptPage = [
       
       You have received many diverse applications in regard to gender, age, ethnicity, etc for the role. The company uses an applicant tracking system (ATS) (ex. Workday, Taleo) that helps filter out candidates. The ATS automatically filters out resumes based on keywords, education, and experience.
       However, the ATS has inherent biases, leading to the exclusion of potentially qualified candidates.`,
-      image: "../../assets/ATSscreening.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/sR8Sndv/ATSscreening.png",
+      altText: `ATS screening on a tablet`,
       option1ID: 19,
       option1text: `Choose to review only the top-ranked resumes suggested by the ATS`,
       option2ID: 20,
@@ -261,8 +262,8 @@ const gamePromptPage = [
       The top-ranked resumes selected by the ATS are not diverse. All the selected candidates are Caucasian males at top engineering schools. 
       
       You decide to continue using ATS, but look at the non-top-ranked resumes as well and review the flags.`,
-      image: "../../assets/ATSApprovedResumes.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/FwBFRKn/ATSApproved-Resumes.png",
+      altText: `Compare two resumes`,
       option1ID: 21,
       option1text: `Continue using the ATS, but look at the non-top ranked resumes as well and review the flags.`,
       isTransition: true
@@ -274,8 +275,8 @@ const gamePromptPage = [
       You find there is a lot of hidden bias in the ATS algorithm as the ATS favours certain backgrounds and keywords. 
       
       Due to the large number of applicants, this takes too long so you decide to use the filtered ATS results, but also screen manually the flags to be more thorough and reduce bias.`,
-      image: "../../assets/ManuallyApprovedResumes.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/g6X7hkh/Manually-Approved-Resumes.png",
+      altText: `Compare two resumes`,
       option1ID: 21,
       option1text: `Use the filtered ATS results, but also screen manually the flags to be more thorough and reduce bias.`,
       isTransition: true
@@ -285,8 +286,8 @@ const gamePromptPage = [
       text: `You encounter a resume from an older candidate. Anne Brown is an experienced software developer who has 35+ years of experience in the industry. The ATS flags them due to age-related keywords. 
       
       Will you ignore the flag and proceed with this applicant?`,
-      image: "../../assets/OlderApplicantResume.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/nR0fbCr/Older-Applicant-Resume.png",
+      altText: `Resume of an older applicant`,
       option1ID: 22,
       option1text: `Dismiss older candidates`,
       option2ID: 23,
@@ -296,13 +297,13 @@ const gamePromptPage = [
       id: 22,
       text: `Maura, the Talent Acquisition Specialist informs you that this was an example of age discrimination.
       
-      She adds that 99% of Fortune 500 companies filter candidates using ATS. However, the the U.S. Equal Employment Opportunity Commission (EEOC) settled its first lawsuit related to age discrimination. The EEOC alleged that the ATS used to screen applicants was discriminatory in rejecting older applicants. 
+      She adds that 99% of Fortune 500 companies filter candidates using ATS (Davis, 2023). However, the U.S. Equal Employment Opportunity Commission (EEOC) settled its first lawsuit related to age discrimination (Schmidt & Timko, 2023). The EEOC alleged that the ATS used to screen applicants was discriminatory in rejecting older applicants. 
 
       Maura explains that this is why screening cannot solely be based on the use of ATS. It is important to go through the resumes flagged by ATS for age-related keywords to ensure no discrimination occurs.
 
       As a result, the team misses out on experienced talent. You are disappointed in yourself.`,
-      image: "../../assets/SadTeam.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/FxHPpy1/SadTeam.png",
+      altText: `A sad team of people`,
       option1ID: 24,
       option1text: `Screen more candidates`,
       isTransition: true,
@@ -312,9 +313,9 @@ const gamePromptPage = [
       id: 23,
       text: `You discover that some older candidates are highly skilled and now challenge age stereotypes. While some ATS can flag applicants due to age bias, it is important to hire with a fair and inclusive mindset.
       
-      In fact, the U.S. Equal Employment Opportunity Commission (EEOC) settled its first lawsuit related to age discrimination. The EEOC alleged that the ATS used to screen applicants was discriminatory in rejecting older applicants. `,
-      image: "../../assets/ChallengingAgeStereotypes.png",
-      altText: `Add alt text`,
+      In fact, the U.S. Equal Employment Opportunity Commission (EEOC) settled its first lawsuit related to age discrimination (Schmidt & Timko, 2023). The EEOC alleged that the ATS used to screen applicants was discriminatory in rejecting older applicants. `,
+      image: "https://i.ibb.co/VSKBvPT/Challenging-Age-Stereotypes.png",
+      altText: `A group of people celebrating while a woman gives a speech`,
       option1ID: 24,
       option1text: `Screen more candidates`,
       isTransition: true
@@ -324,8 +325,8 @@ const gamePromptPage = [
       text: `You encounter a resume that is flagged due to the candidate having a diverse name.  Some names are less common or non-Western. The ATS may subtly favour familiar names. 
 
       The candidate in question, Rahul Kohli, matches the job requirements and seems like a good fit for the job.`,
-      image: "../../assets/DiversityResumeDiscrimination.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/g3rxxNb/Diversity-Resume-Discrimination.png",
+      altText: `A man's resume in the background with the man standing in front of it`,
       option1ID: 25,
       option1text: `Go along with the ATS and prioritize resumes with familiar names.`,
       option2ID: 26,
@@ -338,8 +339,8 @@ const gamePromptPage = [
       She adds that 95% of studies on recruitment where researchers create fictitious applicants identify high ethnic discrimination. On average, ethnic minority applicants receive half as many positive responses (Adamovic, 2021). In fact, white-sounding names receive 50% more callbacks for interviews (Bertrand and Mullainathan, 2003). 
 
       As a result, the team misses out on the right talent. You are disappointed in yourself.`,
-      image: "../../assets/SadTeam.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/FxHPpy1/SadTeam.png",
+      altText: `A sad team of people`,
       option1ID: 27,
       option1text: `Screen more candidates`,
       isTransition: true,
@@ -350,8 +351,8 @@ const gamePromptPage = [
       text: `You learn about the impact of name bias. You discover that 95% of studies on recruitment where researchers create fictitious applicants identify high ethnic discrimination. On average, ethnic minority applicants receive half as many positive responses (Adamovic, 2021). In fact, white-sounding names receive 50% more callbacks for interviews (Bertrand and Mullainathan, 2003). 
       
       To combat this type of discrimination, you hide the names of the resumes when reviewing them.`,
-      image: "../../assets/DiverseTeam.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/9spLbqG/Diverse-Team.png",
+      altText: `A diverse team of people smiling and posing`,
       option1ID: 27,
       option1text: `Screen more candidates`,
       isTransition: true
@@ -359,8 +360,8 @@ const gamePromptPage = [
     {
       id: 27,
       text: `You encounter Steve Lee’s resume, a candidate with a disability. The ATS flags it during the online tests to assess job skills since it ranked poorly for the use of keystrokes.`,
-      image: "../../assets/DisabilityResume.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/r7V74K8/Disability-Resume.png",
+      altText: `A man sitting in a wheelchair in front of his resume`,
       option1ID: 28,
       option1text: `Dimiss Steve's resume`,
       option2ID: 29,
@@ -370,11 +371,11 @@ const gamePromptPage = [
       id: 28,
       text: `Maura, the Talent Acquisition Specialist informs you that this was an example of disability-based discrimination.
       
-      She adds that the U.S. Federal Government ruled that if AI is used to unfairly screen candidates with disabilities, it could violate civil rights laws. Using ATS to assess applicants can screen candidates with physical disabilities and severe arthritis (O'Brien, 2022). 
+      She adds that the U.S. Federal Government ruled that if AI is used to unfairly screen candidates with disabilities, it could violate civil rights laws. Using ATS to assess applicants can screen out candidates with physical disabilities and severe arthritis (O'Brien, 2022). 
 
       As a result, the team misses out on the right talent and you almost cause a lawsuit. You are disappointed in yourself.`,
-      image: "../../assets/SadTeam.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/FxHPpy1/SadTeam.png",
+      altText: `A sad team of people`,
       option1ID: 30,
       option1text: `Screen more candidates`,
       isTransition: true,
@@ -384,12 +385,12 @@ const gamePromptPage = [
       id: 29,
       text: `You discover that unconventional experiences can be valuable and adjust the evaluation process to be more inclusive.
       
-      You discover that the U.S. Federal Government ruled that if AI is used to unfairly screen candidates with disabilities, it could violate civil rights laws. Using ATS to assess applicants can screen candidates with physical disabilities and severe arthritis (O'Brien, 2022). 
+      You discover that the U.S. Federal Government ruled that if AI is used to unfairly screen candidates with disabilities, it could violate civil rights laws. Using ATS to assess applicants can screen out candidates with physical disabilities and severe arthritis (O'Brien, 2022). 
 
       Therefore, it is not only ethically right to be inclusive during screening but also legal.
       `,
-      image: "../../assets/DisabilityInclusiveTeam.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/pQjMDmM/Disability-Inclusive-Team.png",
+      altText: `A team of people smiling`,
       option1ID: 30,
       option1text: `Screen more candidates`,
       isTransition: true
@@ -397,8 +398,8 @@ const gamePromptPage = [
     {
       id: 30,
       text: `You encounter Lily Chen's resume, a candidate with a maternity age gap. The ATS flags her resume as a liability. You must choose between 2 candidates: Lily, a mom who is qualified with 3 years of experience but has a maternity leave gap vs. Rebbeca Snow, a less qualified candidate with 1.5 years of experience with no maternity gap.`,
-      image: "../../assets/MomApplicant.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/D74JyDc/Mom-Applicant.png",
+      altText: `A woman holding her children on the left and working on the right`,
       option1ID: 31,
       option1text: `Dimiss Lily's resume and choose Rebecca to move forward to the interview process`,
       option2ID: 32,
@@ -408,11 +409,11 @@ const gamePromptPage = [
       id: 31,
       text: `Maura, the Talent Acquisition Specialist informs you that this was an example of discrimination against moms.
 
-      She adds that some applicants who had maternity leave gaps in their resumes were being flagged as a liability and screened out (Liberatore, 2023). 
+      She adds that in some ATS,  applicants who had maternity leave gaps in their resumes were being flagged as a liability and screened out (Liberatore, 2023). 
 
       As a result, the team misses out on the right talent. You are disappointed in yourself.`,
-      image: "../../assets/SadTeam.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/FxHPpy1/SadTeam.png",
+      altText: `A sad team of people`,
       option1ID: 33,
       option1text: `You finished screening candidates. Now you will move onto the interviewing stage.`,
       isTransition: true,
@@ -420,9 +421,14 @@ const gamePromptPage = [
     },
     {
       id: 32,
-      text: `You discover that having maternity leave gaps in someone's experience is not a liability and brings valuable experiences and perspectives.`,
-      image: "../../assets/DiverseTeamWithMoms.png",
-      altText: `Add alt text`,
+      text: `You discover that having maternity leave gaps in someone's experience is not a liability and brings valuable experiences and perspectives ,liability and provide a fair opportunity
+      
+      You learn that in some ATS, applicants who had maternity leave gaps in their resumes were being flagged as a liability and screened out (Liberatore, 2023).
+      
+      Hence, it is ethical to not consider career gaps as a libability and provide a fair screening opportunity to all applicants.`,
+
+      image: "https://i.ibb.co/9spLbqG/Diverse-Team.png",
+      altText: `A diverse team of people smiling and posing`,
       option1ID: 33,
       option1text: `You finished screening candidates. Now you will move onto the interviewing stage.`,
       isTransition: true
@@ -436,8 +442,8 @@ const gamePromptPage = [
       You know that if you continue to thoroughly interview all these candidates yourself, you won’t be abe to meet your project deadlines and select the hire in 2 weeks.
       
       You start to research possible technologies to use in the interview process. The company has used HireVue in the past and you think it would help expedite the process.`,
-      image: "../../assets/ConsideringHireVue.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/84zhsv1/Considering-Hire-Vue.png",
+      altText: `A person considering whether to use HireVue on their laptop`,
       option1ID: 34,
       option1text: `The algorithmic technology seems like the perfect solution for your problem.`,
       option2ID: 35,
@@ -449,8 +455,8 @@ const gamePromptPage = [
     {
       id: 34,
       text: `You decide to go ahead with the technology and think it’ll be great in giving a baseline to compare all interviewees and expedite the decision-making process immensely.`,
-      image: "../../assets/ManGivingAThumbsUp.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/NYL1KQR/Man-Giving-AThumbs-Up.png",
+      altText: `A man giving his approval with a thumbs up`,
       option1ID: 37,
       option1text: `Continue.`,
       isTransition: true
@@ -460,13 +466,12 @@ const gamePromptPage = [
       text: `The company’s system uses the candidates’ camera to analyze their facial movements, word choice, and speaking voice before ranking them against other applicants based on an automatically generated 
       “employability” score.” The system then creates a computer-generated estimate of the candidates’ skills and behaviors, including their “willingness to learn” and “personal stability.”
 
-      You also check in with HR about past candidate experiences. 
-      Most candidates have not submitted feedback about the tool but there are a few bad reviews that indicate candidate displeasure. 
+      You also check in with HR about past candidate experiences. Most candidates have not submitted feedback about the tool but there are a few bad reviews that indicate candidate displeasure. 
       
       A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce results that are 
       “biased, unprovable and not replicable” and could unfairly score someone based on prejudices related to their gender, race, sexual orientation or neurological differences (Harewell, 2019).`,
-      image: "../../assets/CameraAnalysis.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/TgVcB82/Camera-Analysis.png",
+      altText: `A futuristic image of AI camera analysis`,
       option1ID: 37,
       option1text: `You decide to go ahead with the technology but make it a small part of the decision-making process. 
 
@@ -482,22 +487,22 @@ const gamePromptPage = [
       You recall your African-American friend also telling you that they had a frustrating and discriminatory experience where the algorithm did not even recognize them. 
       You don’t want to put anyone else through that process. 
 
-      To combat the looming deadlines, you pull in other members of your team to help with the interviewing process and host a detailed meeting before interviews start to answer any questions 
+      To combat the looming deadlines, you loop in other members of your team to help with the interviewing process and host a detailed meeting before interviews start to answer any questions 
       and align the team on the best practices to avoid bias to even the playing field as much as possible for all candidates.
       
-      You tell the team to go in blind in the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct 
+      You tell the team to go in blind into the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct 
       impact on the candidate’s work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview. 
       
       Interviews went a bit over the deadline but they were a success and the team is excited about a few diverse candidates who made it past interviews`,
-      image: "../../assets/BusinessMeeting.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/dj4zNZt/Business-Meeting.png",
+      altText: `A business meeting`,
       option1ID: 41,
       option1text: `Move to post selection.`,
       isTransition: true,
     },
     {
       id: 37,
-      text: `After interviews are completed before the deadline, you notice something odd about the employability scores of some of the candidates. 
+      text: `After the interviews are completed, you notice something odd about the employability scores of some of the candidates. 
 
       Nicole, who was a stellar candidate and great communicator during the technical interview, was rated much lower than Steve, who you found to be a bit off-putting. 
       You dive deeper into the information that the algorithm gathered for both candidates and begin to worry.
@@ -507,8 +512,8 @@ const gamePromptPage = [
       
       You do some more digging and find that facial-analysis software shows an error rate of 0.8 percent for light-skinned men compared to 34.7 percent for dark-skinned women. 
       Machine Learning Automated Decision Making, or ML-ADM, often exhibits gender and skin-type bias that is unfair to women and incorrectly assessed Nicole’s facial expressions and tone (Hardesty, 2018).`,
-      image: "../../assets/EmployableScore.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/8mB18Hm/woman.jpg",
+      altText: `A woman doing an interview`,
       option1ID: 38,
       option1text: `You decide to trust the algorithm and reject candidates like Nicole due to an extremely low score by HireVue.`,
       option2ID: 39,
@@ -522,32 +527,28 @@ const gamePromptPage = [
       
       The final batch of candidates after interviews is not as diverse as it would have been had you not put your full faith in the algorithm. 
       
-      A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce 
-      results that unfairly score people based on prejudices related to their gender, race, sexual orientation or neurological differences (Harwell, 2019). It's disappointing to see this 
-      reflected so personally in your own experience.`,
-      altText: `Add alt text`,
+      A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce results that unfairly score people based on prejudices related to their gender, race, sexual orientation or neurological differences (Harwell, 2019). It's disappointing to see this reflected so personally in your own experience.`,
+      altText: `Game Over `,
       isGameOver: true
     },
     {
       id: 39,
       text: `Due to your decision, the final batch of candidates after interviews is more diverse than it would have been had you listened to the algorithm`,
-      image: "../../assets/DiverseCandidates.jpg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/3Ytx36L/Diverse-Candidates.jpg",
+      altText: `A diverse team discussing at a meeting table`,
       option1ID: 41,
       option1text: `Move to post selection.`,
       isTransition: true
     },
     {
       id: 40,
-      text: `To combat the looming deadlines, you pull in other members of your team to help with the interviewing process and host a detailed meeting before interviews start 
-      to answer any questions and align the team on the best practices to avoid bias to even the playing field as much as possible for all candidates.
+      text: `To combat the looming deadlines, you pull in other members of your team to help with the interviewing process and host a detailed meeting before interviews start to answer any questions and align the team on the best practices to avoid bias to even the playing field as much as possible for all candidates.
 
-      You tell the team to go in blind in the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct impact on the 
-      candidate's work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview. 
+      You tell the team to go in blind in the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct impact on the candidate's work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview. 
       
       Interviews went a bit over the deadline but they were a success and the team is excited about a few diverse candidates who made it past interviews.`,
-      image: "../../assets/BusinessMeeting.png",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/dj4zNZt/Business-Meeting.png",
+      altText: `A business meeting`,
       option1ID: 41,
       option1text: `Move to post selection.`,
       isTransition: true
@@ -563,8 +564,8 @@ const gamePromptPage = [
       
       Your company has hired for two key positions: Software Engineer and a UI Analyst. Both positions have top-tier candidates, Maya Khan and Nate Perez from minority backgrounds.
       SalaryAI returns with the salary suggestions: $80,000 for Sophia and $70,000 for Nate. However, you know the market rate for these positions at companies similar to yours is $100,000 for software engineering and $85,000 for marketing analysts.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/gDNg1Bk/SalaryAI.jpg",
+      altText: `Salary calculations on a laptop`,
       option1ID: 42,
       option1text: `Compare SalaryAI's figures with independent market research and review  Maya and Nate's qualifications thoroughly.`,
       option2ID: 43,
@@ -575,8 +576,8 @@ const gamePromptPage = [
       text: `By manually checking, you understand the importance of human oversight in AI decisions, promoting equity and preventing bias. 
       
       You learn that while AI tools can be helpful, they must be regularly audited and adjusted to serve the company's values of fairness and equality. `,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/ZV1VXFT/Learned-About-Helpful-AI.jpg",
+      altText: `A man learning`,
       option1ID: 48,
       option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluating your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
       isTransition: true
@@ -590,8 +591,8 @@ const gamePromptPage = [
       If you make the offers as suggested, Nate and Maya might soon discover they are being paid less than market rates and less than their peers for similar roles.
       
       RISK: Your decision can lead to turnover issues. Could this be a sign of deeper problems?`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/58qKPdT/Uber-Door-Dash-News.jpg",
+      altText: `News about Uber and Doordash`,
       option1ID: 44,
       option1text: `Being mindful of the legal issues and employee dissatisfaction, you choose to dig deeper. `,
       option2ID: 45,
@@ -600,8 +601,7 @@ const gamePromptPage = [
     {
       id: 45,
       text: `Due to AI’s inherent biases, the company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
-      image: "",
-      altText: `add alt text`,
+      altText: `Game Over`,
       isGameOver: true
 
     },
@@ -613,8 +613,8 @@ const gamePromptPage = [
       It heavily factors in previous candidates' salaries and although Maya and Nate are excellent candidates, salaries are way below market rate due to the systematic underpayment of minorities in technology industry. 
       
       Despite this bias, you realize manually searching for market rate is time-consuming.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/BqTmhsG/Salary-Recommendations.jpg",
+      altText: `People smiling behind a screen`,
       option1ID: 46,
       option1text: `Decide to go ahead with the suggested salaries by AI and adjust it manually to ensure pay equity. You adjusted Maya's offer to ensure parity, mindful of the company's commitment to diversity and equality. `,
       option3ID: 53, 
@@ -626,8 +626,8 @@ const gamePromptPage = [
       id: 53,
       text: `The bias audit report is troubling. SalaryAI's algorithms do exhibit subtle biases mirroring common societal ones.  
       Working with developers, you implement adjustments and delay reviews until the model is fairer. This costs time but bolsters trust.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/2d7rYKZ/Bias-Audit-Report.jpg",
+      altText: `Two people working at a table with an audit report in the background`,
       option1ID: 48,
       option1text: `Proceed with the re calibrated AI, mindful you'll need spot-checks to ensure its ongoing fairness.`,
       option2ID: 51, 
@@ -636,8 +636,8 @@ const gamePromptPage = [
     {
       id: 46,
       text: `By manually checking,  you understand the importance of human oversight in AI decisions, promoting equity and preventing bias. You learn that while AI tools can be helpful, they must be regularly audited and adjusted to serve the company's values of fairness and equality.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/KK6FhXB/AITools-Should-Be-Audited.jpg",
+      altText: `A man auditing AI tools`,
       option1ID: 48,
       option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluating your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
       isTransition: true
@@ -645,7 +645,7 @@ const gamePromptPage = [
     {
       id: 47,
       text: `Due to AI’s inherent biases, the company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
-      altText: `Add alt text`,
+      altText: `game over`,
       isGameOver: true
     },
     {
@@ -659,8 +659,8 @@ const gamePromptPage = [
       Sometimes, predictive tools that rely on analysis of facial, audio, or physical interaction with a computer increase the risk that individuals will be automatically rejected or scored lower on the basis of disabilities, race, and other protected characteristics (Askelrod, O. 2023).
       
       Decision: You are tasked with reviewing the AI-recommended list of employees for promotions and salary increases. The system has also provided a percentile ranking for each employee based on their performance metrics. Deadline looms...what do you do?`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/pf3bmBK/Evaluate-Performance-Using-AI.jpg",
+      altText: `Performance evaluation using AI`,
       option1ID: 49,
       option1text: `Choose to do a combined approach of manual, spot checking and review AI-generated evaluations.`,
       option2ID: 50,
@@ -671,29 +671,29 @@ const gamePromptPage = [
       text: `Recently, news breaks about a MAC employee fired after AI-powered facial analysis flagged her as disengaged, demonstrating the real-world risks of biased performance reviews (Nachiappan, A. 2024).
       
       As you review the list, you spot concerning patterns. 
+      
       You notice that the top 10% recommended for significant promotions and raises are predominantly male, despite the workforce being more diverse. 
       Upon a closer examination, you find that most of the female employees and those from minority groups are clustered around the middle or bottom of the percentile rankings.
       You notice concerning patterns. Some older employees seem to be consistently rated lower, despite positive feedback from their managers.  Additionally, a few women on your team have been tagged with terms like "needs more assertiveness."`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
+      image: "https://i.ibb.co/7j2FB9r/Top-Recommendation-Is-Male.jpg",
+      altText: `Business meeting to discuss candidate performance review`,
       option1ID: 51,
       option1text: `Intervene and adjust the promotions based on your employees' merit.`,
       option2ID: 52,
       option2text: `Accept the scores as they are and send the new findings to the your team to re-train the model, concerned that manual adjustments might be subjective.`,
-      isTransition: true
     },
     {
       id: 51,
       text: `Success! Congratulations! You have successfully navigated through the entire process of hiring a candidate and completed the simulation. Most of your decisions led to an improved workplace culture, and higher employee morale, and bolstered the company’s reputation for fairness. Well done!"`,
-      altText: `Add alt text`,
-      isGameOver: true
+      altText: `Success`,
+      isSuccess: true
     },
     {
       id: 52,
       text: `Failure :(. Unfortunately, the decision to follow AI recommendations without scrutiny resulted in overlooking qualified candidates, fostering workplace bias, and leading to a loss of talent. Soon, discontent simmers.
       Seasoned employees, many from minority groups,  feel undervalued. Morale plummets, and several talented individuals start leaving. The company faces backlash, with rumors of ageism and gender discrimination brewing
       This serves as a hard lesson on the importance of human oversight in AI processes.`,
-      altText: `Add alt text`,
+      altText: `game over`,
       isGameOver: true
     },
     {
@@ -708,10 +708,9 @@ const gamePromptPage = [
       This serves as a hard lesson on the importance of human oversight in AI processes.
       You have failed the simulation! Restart the simulation. 
       `,
-      altText: `Add alt text`,
+      altText: `Game Over`,
       isGameOver: true
     }
 ]
-
 
 export default gamePromptPage

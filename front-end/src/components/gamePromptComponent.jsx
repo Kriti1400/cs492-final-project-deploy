@@ -12,7 +12,8 @@ function Prompt ({
     isTransition,
     isThirdOption,
     option3text,
-    option3ID
+    option3ID,
+    isSuccess
 }) {
   console.log(text)
   return (
@@ -77,7 +78,8 @@ Prompt.propTypes = {
   isTransition: PropTypes.bool,
   isThirdOption: PropTypes.bool,
   option3text: PropTypes.string,
-  option3ID: PropTypes.bool
+  option3ID: PropTypes.bool,
+  isSuccess: PropTypes.bool
 };
 
 
