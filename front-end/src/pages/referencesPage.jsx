@@ -39,7 +39,7 @@ function ReferencesPage() {
             ))}
           </div>
         </div>
-                    <img src="https://drive.google.com/file/d/1QpqzpobmOlC2eexQ50UvVIxN9kvYGsY_/view?usp=drive_link" alt="test" />
+                    <img src="https://i.ibb.co/Njfd0yX/About-To-Publish-Job-Posting.png" alt="test" />
         <div>
         <h1 className='text-center font-extrabold text-pink-400'>Screening References</h1>
           {/* <div className='flex flex-col space-y-4'>
