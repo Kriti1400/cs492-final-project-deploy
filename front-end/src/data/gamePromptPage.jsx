@@ -2,7 +2,7 @@ const gamePromptPage = [
     {
       id: 0,
       text: `Select your role. Choose betweeen 2 men who are 40, and 50 respectively and both white. 
-      Did you know that 7.4% of all engineering managers are women, while 92.6% are men and the most common ethnicity of engineering managers is white at 71.0%?`,
+      Did you know that, according to a report by Zippia, 7.4% of all engineering managers are women, while 92.6% are men and the most common ethnicity of engineering managers is white at 71.0%? (Zippia, 2023)`,
       image: "https://i.ibb.co/zJwLFRC/Select-Your-Role2-White-Men.png",
       altText: `Two white men sitting and discussing at a table`,
       option1ID: 1,
@@ -159,9 +159,9 @@ const gamePromptPage = [
     {
       id: 11,
       text: `The next step is determining where you will post the job posting. You want to target a wide range of qualified applicants. 
-      You decide that simply adding the posting to the Avengers4U hiring portal is not enough. You consider making a Google Ad to encourage people to apply.
+      You decide that simply adding the posting to the Avengers4U hiring portal is not enough. You consider making a Google Ad and Facebook Ad to encourage people to apply.
       
-      As you are creating your ad, your coworker Dan walks by. Dan is a senior engineer on your team. Dan says “Hope Google Ads isn’t the only place you’re promoting the job” and walks by.
+      As you are creating your ad, your coworker Dan walks by. Dan is a senior engineer on your team. Dan says “Hope Google Ads and Facebook aren't the only places you’re promoting the job” and walks by.
       
       You sit there confused. What did Dan mean? `,
       image: "https://i.ibb.co/vkgQQTj/Confused-Man.png",
@@ -175,7 +175,7 @@ const gamePromptPage = [
       id: 12,
       text: `You decide to ignore Dan. After all, you are the manager, not Dan. You trust your gut. 
       
-      You post the advertisement and wait for all the talented applicants to apply.`,
+      You post the advertisement on Google Ads and Facebook and wait for all the talented applicants to apply.`,
       image: "https://i.ibb.co/7SmY5sZ/Confident-Man.png",
       altText: `A confident man`,
       option1ID: 14,
@@ -188,7 +188,7 @@ const gamePromptPage = [
       
       Flipping through the applications, the first one is Tony Stark. He looks like a promising candidate. He built his own operating system. The second applicant is Steve Rogers, a civil engineer. The third applicant is Thor Odinson, a cloud engineer. As you flip through all 20 applications, you notice only 1 female applicant, Natasha Romanova. That’s weird, was there a lack of diversity in this ad? 
 
-      Feeling unmotivated, you decide to finally ask Dan what he meant about his Google Ad comment`,
+      Feeling unmotivated, you decide to finally ask Dan what he meant about his Google Ad and Facebook comment`,
       image: "https://i.ibb.co/ykc9XtM/Unmotivated-Man.pngg",
       altText: `A man thinking and sitting at his desk`,
       option1ID: 13,
@@ -201,7 +201,9 @@ const gamePromptPage = [
       
       Dan is happy to see you. He says “There was a study done on Google’s Ad system and it found that it was more likely to display ads for high-paying positions to male users than female users” (Carpenter, 2015). You are shocked. How can this be true? 
       
-      Dan continues, “The model was trained on historical data. It learned from patterns that men are generally represented in high-paying jobs compared to women”.
+      Dan continues, “The model was trained on historical data. It learned from patterns that men are generally represented in high-paying jobs compared to women”. 
+      
+      More recently, on Facebook, women aged 25-34 were 40% less likely than their male counterparts of the same age to see the STEM ads (Lambrecht & Tucker, 2018).
 
       Based on this conversation, what is your next step?`,
       image: "https://i.ibb.co/BPkvcQ0/Convo-About-Google-Ad.png",
@@ -213,7 +215,7 @@ const gamePromptPage = [
     },
     {
       id: 15,
-      text: `Dan lets HR know about your conversation. Despite the study being a few years old, Avengers4U is very serious about advertisements for job postings. HR believes job posting advertisements should always be made on more than 1 platform, to ensure all potential applicants have the same likelihood for success. 
+      text: `Dan lets HR know about your conversation. Despite the study being a few years old, Avengers4U is very serious about advertisements for job postings. HR believes job posting advertisements should always be made on multiple platforms, to ensure all potential applicants have the same likelihood for success. 
       
       They send you a warning that this would have been avoidable if you had accepted their help in the beginning. They take over hiring now. `,
       altText: `Game Over`,
@@ -221,11 +223,11 @@ const gamePromptPage = [
     },
     {
       id: 16,
-      text: `You realize that only posting on advertisement on Google was not the right way to go. 
+      text: `You realize that only posting advertisements on Google and Facebook was not the right way to go. 
       
-      You decide to make job postings on LinkedIn and Indeed to attract more applicants. Job postings should ensure an equal treatment of all applicants. 
+      You decide to make job postings on LinkedIn and Indeed as well to attract more applicants. Job postings should ensure an equal treatment of all applicants. 
       
-      You conclude that relying only on Google Ads will narrow your search for the most qualified applicant. 
+      You conclude that relying only on Google Ads and Facebook will narrow your search for the most qualified applicant. 
       `,
       image: "https://i.ibb.co/6JQxDPW/Linked-In-Posting.png",
       altText: `Two people around a Linkedin posting`,
@@ -441,7 +443,7 @@ const gamePromptPage = [
       
       You know that if you continue to thoroughly interview all these candidates yourself, you won’t be abe to meet your project deadlines and select the hire in 2 weeks.
       
-      You start to research possible technologies to use in the interview process. The company has used HireVue in the past and you think it would help expedite the process.`,
+      You start to research possible technologies to use in the interview process. The company has used HireVue in the past and it could help expedite the process.`,
       image: "https://i.ibb.co/84zhsv1/Considering-Hire-Vue.png",
       altText: `A person considering whether to use HireVue on their laptop`,
       option1ID: 34,
@@ -454,7 +456,7 @@ const gamePromptPage = [
     },
     {
       id: 34,
-      text: `You decide to go ahead with the technology and think it’ll be great in giving a baseline to compare all interviewees and expedite the decision-making process immensely.`,
+      text: `You decide to go ahead with the technology and think it’ll be great in giving a baseline to compare all interviewees and expedite the decision-making process.`,
       image: "https://i.ibb.co/NYL1KQR/Man-Giving-AThumbs-Up.png",
       altText: `A man giving his approval with a thumbs up`,
       option1ID: 37,
@@ -463,13 +465,13 @@ const gamePromptPage = [
     },
     {
       id: 35,
-      text: `The company’s system uses the candidates’ camera to analyze their facial movements, word choice, and speaking voice before ranking them against other applicants based on an automatically generated 
-      “employability” score.” The system then creates a computer-generated estimate of the candidates’ skills and behaviors, including their “willingness to learn” and “personal stability.”
-
-      You also check in with HR about past candidate experiences. Most candidates have not submitted feedback about the tool but there are a few bad reviews that indicate candidate displeasure. 
+      text: `HireVue previously used a facial analysis screening system which analyzed candidates facial movements, word choice, and speaking voice to generate an overall “employability” score before ranking them against other applicants. The company announced in January, 2021 that they would discontinue this screening due to the concern it was causing users but experts are still concerned about HireVue's use of speech-based analysis in video interviews (Maurer, 2021). 
       
-      A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce results that are 
-      “biased, unprovable and not replicable” and could unfairly score someone based on prejudices related to their gender, race, sexual orientation or neurological differences (Harewell, 2019).`,
+      Merve Hickok, a lecturer and speaker on AI ethics, expressed that facial expressions are not universal and can change due to culture, context and disabilities, implying that "accuracy in correctly categorizing an expression is problematic to start with, let alone inferring traits from it" (Maurer, 2021). 
+      
+      Despite their concerns, many experts agree that algorithmic tools have value in HR and should be improved instead of entirely eliminated (Maurer, 2021).
+
+      You also check in with HR about past candidate experiences. Most candidates have not submitted feedback about the tool but there are a few bad reviews that indicate candidate displeasure. `,
       image: "https://i.ibb.co/TgVcB82/Camera-Analysis.png",
       altText: `A futuristic image of AI camera analysis`,
       option1ID: 37,
@@ -477,23 +479,19 @@ const gamePromptPage = [
 
       This way, you can conduct interviews faster and the technology will help give a baseline to compare all the interviewees.`,
       option2ID: 40,
-      option2text: `After reading through the article, you decide that it would be the most equitable approach to go through with interviews manually.`,
+      option2text: `After reading through more news sources, you decide that it would be the most equitable approach to wait for this technology to improve and go through with interviews manually.`,
     },
     {
       id: 36,
       text: `You recall doing some AI-supported calls as an interviewee in the past and remember how it impacted your confidence. 
-      
       You felt as if there was minimal opportunity to showcase your skill set during the interview and provided shorter interview answers since there was a lack of genuine interaction. 
-      You recall your African-American friend also telling you that they had a frustrating and discriminatory experience where the algorithm did not even recognize them. 
-      You don’t want to put anyone else through that process. 
+      You recall your African-American friend also telling you that they had a frustrating and discriminatory experience where the algorithm did not even recognize them (Chen, 2023). 
 
-      To combat the looming deadlines, you loop in other members of your team to help with the interviewing process and host a detailed meeting before interviews start to answer any questions 
-      and align the team on the best practices to avoid bias to even the playing field as much as possible for all candidates.
+      To combat the looming deadlines, you loop in other members of your team to help with the interviewing process. You host a detailed meeting before interviews start to answer any questions and align the team on the best practices to avoid bias and even the playing field as much as possible for all candidates.
       
-      You tell the team to go in blind into the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct 
-      impact on the candidate’s work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview. 
+      You tell the team to go in blind into the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct impact on the candidate’s work. You also use an interview scorecard that grades candidates’ responses on a pre-determined scale and have 2 interviewers attend each interview (Cecchi-Dimeglio, 2022). 
       
-      Interviews went a bit over the deadline but they were a success and the team is excited about a few diverse candidates who made it past interviews`,
+      Interviews went a bit over the deadline but they were a success and the team is excited about a few diverse candidates who made it past interviews.`,
       image: "https://i.ibb.co/dj4zNZt/Business-Meeting.png",
       altText: `A business meeting`,
       option1ID: 41,
@@ -504,36 +502,33 @@ const gamePromptPage = [
       id: 37,
       text: `After the interviews are completed, you notice something odd about the employability scores of some of the candidates. 
 
-      Nicole, who was a stellar candidate and great communicator during the technical interview, was rated much lower than Steve, who you found to be a bit off-putting. 
-      You dive deeper into the information that the algorithm gathered for both candidates and begin to worry.
+      Jemma, who was a stellar candidate and great communicator during the technical interview, was rated much lower than Steve, who you found to be a bit off-putting and distracted. 
       
-      Nicole was well-dressed for the interview and answered confidently in the allotted time. The algorithm caught the positive keywords she used as well. 
-      However, the algorithm has indicated that she looked angry and was not well-suited to the job due to a bad temper. Comparatively, Steve’s score is pretty accurate.  
+      You dive deeper into the information that the technology gathered for both candidates and begin to worry.
       
-      You do some more digging and find that facial-analysis software shows an error rate of 0.8 percent for light-skinned men compared to 34.7 percent for dark-skinned women. 
-      Machine Learning Automated Decision Making, or ML-ADM, often exhibits gender and skin-type bias that is unfair to women and incorrectly assessed Nicole’s facial expressions and tone (Hardesty, 2018).`,
+      Jemma came prepared for the interview and answered confidently in the allotted time. The technology caught the positive keywords she used as well. However, the algorithm has indicated that she was not well-suited to the job. Comparatively, Steve’s score is pretty accurate.
+      
+      You do some more digging and find that the software can be inaccurate and prefer male candidates who use words like "baseball" or "basketball" – hobbies that were linked to more successful staff, often men (Lytton, 2024). Machine Learning Automated Decision Making, or ML-ADM, often exhibits gender, skin-type, and word bias that is unfair to women and unfairly assessed Jemma in this case (Fatourou et al., 2021).`,
       image: "https://i.ibb.co/8mB18Hm/woman.jpg",
       altText: `A woman doing an interview`,
       option1ID: 38,
-      option1text: `You decide to trust the algorithm and reject candidates like Nicole due to an extremely low score by HireVue.`,
+      option1text: `You decide to trust the algorithm and reject candidates like Jemma.`,
       option2ID: 39,
-      option2text: `You decide to go with your gut and move candidates like Nicole forward, despite the extremely low score by HireVue.`,
+      option2text: `You decide to go with your gut and move candidates like Jemma forward.`,
     },
     {
       id: 38,
       text: `Due to your decision, the final batch of candidates after interviews is made up of only white males. 
 
-      Nicole asks how she could improve after receiving a rejection email and you aren’t able to explain why the AI hiring system believed she was unfit for the role.
+      Jemma asks how she could improve after receiving a rejection email and you aren’t able to explain exactly why the AI hiring system believed she was unfit for the role.
       
-      The final batch of candidates after interviews is not as diverse as it would have been had you not put your full faith in the algorithm. 
-      
-      A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce results that unfairly score people based on prejudices related to their gender, race, sexual orientation or neurological differences (Harwell, 2019). It's disappointing to see this reflected so personally in your own experience.`,
+      The final batch of candidates after interviews is not as diverse as it would have been had you not put your full faith in the algorithm.`,
       altText: `Game Over `,
       isGameOver: true
     },
     {
       id: 39,
-      text: `Due to your decision, the final batch of candidates after interviews is more diverse than it would have been had you listened to the algorithm`,
+      text: `Due to your decision, the final batch of candidates after interviews is more diverse than it would have been had you just listened to the algorithm.`,
       image: "https://i.ibb.co/3Ytx36L/Diverse-Candidates.jpg",
       altText: `A diverse team discussing at a meeting table`,
       option1ID: 41,
@@ -542,9 +537,10 @@ const gamePromptPage = [
     },
     {
       id: 40,
-      text: `To combat the looming deadlines, you pull in other members of your team to help with the interviewing process and host a detailed meeting before interviews start to answer any questions and align the team on the best practices to avoid bias to even the playing field as much as possible for all candidates.
+      text: `To combat the looming deadlines, you pull in other members of your team to help with the interviewing process. 
+      You host a detailed meeting before interviews start to answer any questions and align the team on the best practices to avoid bias to even the playing field as much as possible for all candidates.
 
-      You tell the team to go in blind in the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct impact on the candidate's work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview. 
+      You tell the team to go in blind in the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct impact on the candidate's work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview (Cecchi-Dimeglio, 2022). 
       
       Interviews went a bit over the deadline but they were a success and the team is excited about a few diverse candidates who made it past interviews.`,
       image: "https://i.ibb.co/dj4zNZt/Business-Meeting.png",
@@ -656,7 +652,7 @@ const gamePromptPage = [
       It is designed to assist in promotion decisions, performance evaluations, and salary adjustments. The system analyzes employee performance data(e.g. project contribution), feedback, and historical trends to make recommendations. 
       
       PromoAI 2.0 is ready, but recent news of biased facial analysis tools has you on edge. HR team member mentions in the ethics training that studies highlight potential for gender, minority, and age biases in AI-driven performance evaluations (Sanaullah, N. 2020). 
-      Sometimes, predictive tools that rely on analysis of facial, audio, or physical interaction with a computer increase the risk that individuals will be automatically rejected or scored lower on the basis of disabilities, race, and other protected characteristics (Askelrod, O. 2023).
+      Sometimes, predictive tools that rely on analysis of facial, audio, or physical interaction with a computer increase the risk that individuals will be automatically rejected or scored lower on the basis of disabilities, race, and other protected characteristics (SITNFlash, 2020).
       
       Decision: You are tasked with reviewing the AI-recommended list of employees for promotions and salary increases. The system has also provided a percentile ranking for each employee based on their performance metrics. Deadline looms...what do you do?`,
       image: "https://i.ibb.co/pf3bmBK/Evaluate-Performance-Using-AI.jpg",
@@ -684,7 +680,7 @@ const gamePromptPage = [
     },
     {
       id: 51,
-      text: `Success! Congratulations! You have successfully navigated through the entire process of hiring a candidate and completed the simulation. Most of your decisions led to an improved workplace culture, and higher employee morale, and bolstered the company’s reputation for fairness. Well done!"`,
+      text: `Success! Congratulations! You have successfully navigated through the entire process of hiring a candidate and completed the simulation. Most of your decisions led to an improved workplace culture, and higher employee morale, and bolstered the company’s reputation for fairness. Well done!`,
       altText: `Success`,
       isSuccess: true
     },
@@ -700,7 +696,9 @@ const gamePromptPage = [
       id: 50,
       text: `Unfortunately, AI’s recommended list had inherent age and gender bias. 
       
-      AI tool disproportionately recommended higher bonuses for the young tech team, most of whom are male. Seasoned employees in support roles, including many from minority groups, have been recommended much lower bonuses or none at all. 
+      AI tools disproportionately recommended higher bonuses for the young tech team, most of whom are male. Seasoned employees in support roles, including many from minority groups, have been recommended much lower bonuses or none at all. 
+
+      Further, underrepresented groups like Black women can be recommended for jobs they are overqualified for due to AI misinterpreting ethnic identities. This illustrates how AI, if not carefully trained, can reinforce existing disparities and limit opportunities (Zoppata, 2021).
       
       Company culture suffers as seasoned and minority employees feel undervalued. 
 

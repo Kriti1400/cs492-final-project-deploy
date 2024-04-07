@@ -9,7 +9,7 @@ const screeningData = [
     },
     {
         id: 3, 
-        text: ` Davis, L. M. (2023, June 9). The new age of hiring: AI is changing the game for job seekers. CNET. https://www.cnet.com/tech/features/the-new-age-of-hiring-ai-is-changing-the-game-for-job-seekers/`
+        text: `Davis, L. M. (2023, June 9). The new age of hiring: AI is changing the game for job seekers. CNET. https://www.cnet.com/tech/features/the-new-age-of-hiring-ai-is-changing-the-game-for-job-seekers/`
     },
     {
         id: 4,

@@ -16,12 +16,13 @@ function DescriptionPage() {
           In this interactive game, you'll step into the role of a hiring manager and experience firsthand how AI can amplify prejudice in the workplace, often with the best of intentions.
 
         </p>
+        <br></br>
         <h3 className="font-bold text-pink-400">The Challenge</h3>
         <p>
           Your decisions matter. As you create job postings, screen resumes, conduct interviews, and make offers, you'll confront subtle -and not so subtle- scenarios where seemingly objective AI tools perpetuate discrimination. 
           Can you build a fair and inclusive team, or will unconscious biases derail your efforts?
         </p>
-
+        <br></br>
         <section className="feature-section">
           <h3 className="font-bold text-pink-400 gap-6">Features</h3>
           <ul className="feature-list">
@@ -37,6 +38,7 @@ function DescriptionPage() {
               
             </li>
           </ul>
+          <br></br>
         </section>
         <h3 className="font-bold text-pink-400">Why Play?</h3>
         <p>

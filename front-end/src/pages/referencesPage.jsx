@@ -38,7 +38,6 @@ function ReferencesPage() {
             <p key={item.id}>{item.text}</p>
           ))} 
           </div>
-          
         </div>
     </div>
   );
