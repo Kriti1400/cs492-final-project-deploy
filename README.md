@@ -1,10 +1,12 @@
-**Quick Description**
+**Description of our Project**
 
-* A short, engaging create-your-own-adventure game of AI in pre-hiring and post hiring stages. 
+For our final project, we created an engaging create-your-own-adventure game from the perspective of the engineering manager who has to make difficult decisions related to AI Algorithms in the hiring process. Players are presented with different decisions while hiring a new team member to highlight the impact of seemingly small decisions that can lead to discriminatory outcomes. There are four stages in the game: making a job posting, screening candidates, interviewing candidates, and sending out job offers. Players encounter scenarios where the use of AI makes the hiring decision easier but not necessarily non-discriminatory. After this game, users will be able to better manage social issues as they enter the workplace and participate in the hiring process.
+
 ## Installation Instructions
 
 **Prerequisites**
 
+* git: Follow instructions at https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 * Node.js (version 14 or later): Download from https://nodejs.org/
 * npm (included with Node.js installation)
 
@@ -28,7 +30,7 @@
 3. After installing dependencies, start the front-end development server using: npm run dev
 
 **Running the game**
-Open a web browser and go to http://localhost:3000 (or the specific port used by your front-end that was given).
+Open a web browser and go to http://localhost:5173 (or the specific port used by your front-end that was given).
 
 **Troubleshooting**
 Check Node.js and npm versions: Ensure compatibility with your project's package.json.
