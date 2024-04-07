@@ -2,8 +2,10 @@
 
 For our final project, we created an engaging create-your-own-adventure game from the perspective of the engineering manager who has to make difficult decisions related to AI Algorithms in the hiring process. Players are presented with different decisions while hiring a new team member to highlight the impact of seemingly small decisions that can lead to discriminatory outcomes. There are four stages in the game: making a job posting, screening candidates, interviewing candidates, and sending out job offers. Players encounter scenarios where the use of AI makes the hiring decision easier but not necessarily non-discriminatory. After this game, users will be able to better manage social issues as they enter the workplace and participate in the hiring process.
 
-This is the deployed version of our project which you can find here: https://cs492-final-project-deploy.vercel.app/
+This is the repo for the deployed version of our project which you can find here: https://cs492-final-project-deploy.vercel.app/
+
 We faced difficulties in deploying both the front-end and back-end and so this repo has all the data refactored to be in the front-end folder so that all images and game data show up correctly on the deployed app. 
+
 The original repo with the separate front-end and back-end components can be found here: https://github.com/shailikadakia/cs492-final-project
 
 ## Installation Instructions
