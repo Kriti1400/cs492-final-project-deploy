@@ -7,7 +7,7 @@ import gamePromptPage from "../data/gamePromptPage";
 
 function Game() {
   const [gameData, setGameData] = useState(null);
-  const [optionSelected, setOptionSelected] = useState(gamePromptPage[0].id);
+  const [optionSelected, setOptionSelected] = useState(gamePromptPage[18].id);
   let navigate = useNavigate();
 
   const handleOptionSelect = (optionId) => {
